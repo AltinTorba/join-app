@@ -21,6 +21,10 @@
       justify-content: center;
       background-color: #0038ff;
       color: #ffffff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      box-sizing: border-box;
     }
     .typTechnical {
       height: 26px;
@@ -32,6 +36,10 @@
       justify-content: center;
       background-color: #1fd7c1;
       color: #ffffff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      box-sizing: border-box;
     }
     .MoveToBurgermenu {
       display: none;
