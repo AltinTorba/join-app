@@ -1,0 +1,7 @@
+services:
+  join-web:
+    build: .
+    container_name: join-app
+    restart: unless-stopped
+    ports:
+      - "8004:80"
